@@ -7,7 +7,7 @@ name: Zip up folders for distribution
 
 jobs:
   build:
-    name: Upload Release Asset
+    name: Zip up folders for distribution
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -16,6 +16,10 @@ jobs:
       - name: Zip files
         run: |
           zip -r bjorn.zip . -i bjorn
+          zip -r video.zip . -i video
+          zip -r frances.zip . -i frances
+          zip -r william.zip . -i william
+          zip -r interviews.zip . -i interviews
           
       - name: Create Release
         id: create_release
@@ -28,8 +32,7 @@ jobs:
           draft: true
           prerelease: false
           
-      - name: Upload Release Asset
-        id: upload-release-asset 
+      - name: upload Bjorn
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -37,4 +40,14 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}  
           asset_path: ./bjorn.zip
           asset_name: bjorn.zip
+          asset_content_type: application/zip
+
+      - name: upload Frances
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}  
+          asset_path: ./frances.zip
+          asset_name: frances.zip
           asset_content_type: application/zip
