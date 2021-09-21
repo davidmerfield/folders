@@ -1,6 +1,29 @@
 # folders
 test material for static site generators
 
+Diary - ? artificial folder from demo video? 
+  an image, a text file, a word document, a bookmark
+
+Magazine - Interviews
+https://en.wikinews.org/wiki/Category:Interviews
+
+Portfolio – William – Flowers on black
+https://www.flickr.com/photos/alberta_archives/albums/72157643076560675
+
+Photo - Bjorn - Sweden
+https://www.flickr.com/photos/swedish_heritage_board/albums/72157650224763869/
+
+Reference – Frances - Gardening in Color
+https://www.flickr.com/photos/library_of_congress/albums/72157629495236312
+May the beauty captured in these historical magic lantern slides inspire you with
+Just need to trim the borders
+
+---
+
+Ferox for what template?
+
+https://www.npmjs.com/package/flickr-set-get
+
 # Test material for templates
 
 This directory contains test material to develop templates with. 
@@ -20,39 +43,31 @@ a .blot directory containing config...
 
 ## Future test material 
 
-Gardening from Wikimedia:
-- Riff on this site: https://theplanthunter.com.au/
-- Good entry points:
-  - https://commons.wikimedia.org/wiki/Category:Plants
-  - https://commons.wikimedia.org/wiki/Commons:Featured_pictures/Plants
-  - https://commons.wikimedia.org/wiki/Category:Gardening
-  - https://commons.wikimedia.org/wiki/Category:Gardeners
-  - https://commons.wikimedia.org/wiki/File:Antonio,_el_invern%C3%A1culo_y_sus_plantas_(7375398612).jpg
-  - https://commons.wikimedia.org/wiki/File:Antonio,_el_ivern%C3%A1culo_y_sus_plantas_(7371797592).jpg
-  - https://commons.wikimedia.org/wiki/Category:Gardens
-  - https://commons.wikimedia.org/wiki/File:Gardener_Holding_Heirloom_Calypso_Beans_(aka_Yin_Yang).jpg
-  - https://commons.wikimedia.org/wiki/Category:Unidentified_pot_plants
-  - https://commons.wikimedia.org/wiki/File:Thumbnail-size_potted_plant-_Goyang_International_Flower_Festival_(4560157876).jpg
-  - https://commons.wikimedia.org/wiki/Category:Gardening_in_art
-  - https://commons.wikimedia.org/wiki/Category:Flowers_in_art
-  
-Gardening in Color
-May the beauty captured in these historical magic lantern slides inspire you with
-https://www.flickr.com/photos/library_of_congress/albums/72157629495236312
-Just need to trim the borders
+Photochrom Travel Views
+https://www.flickr.com/photos/library_of_congress/albums/72157612249760312
 
-Flowers on black
-https://www.flickr.com/photos/alberta_archives/albums/72157643076560675
+Collection of MET cylindrical seals with modern impressions
+https://www.metmuseum.org/art/collection/search#!?showOnly=withImage%7CopenAccess&q=cylinder%20seal%20and%20modern%20impression&offset=0&perPage=80&sortOrder=asc&searchField=All&pageSize=0
+
+
+
+Audio recordings at Yellowstone park
+https://www.nps.gov/yell/learn/photosmultimedia/soundlibrary.htm
+
+James Jowers black and white street photography
+https://www.flickr.com/photos/george_eastman_house/albums/72157608512488080
+
+HARD - Illustrations of these London Parks
+https://www.biodiversitylibrary.org/page/56636927#page/131/mode/1up
+
+HARD - Bird head drawings
+https://www.flickr.com/photos/smithsonian/albums/72157651885659630/page2
+
+
 
 Urban J Kinnet
 Geologist at Berkeley
 https://www.flickr.com/photos/105662205@N04/albums/72157670885525146/page1
-
-Bird head drawings
-https://www.flickr.com/photos/smithsonian/albums/72157651885659630/page2
-
-James Jowers black and white street photography
-https://www.flickr.com/photos/george_eastman_house/albums/72157608512488080
 
 Vancouver neon in black and white
 https://www.flickr.com/photos/99915476@N04/albums/72157636305761336
@@ -60,20 +75,12 @@ https://www.flickr.com/photos/99915476@N04/albums/72157636305761336
 Nasa Mission Patches
 https://www.flickr.com/search/?text=nasa%20patches&license=7%2C9%2C10
 
-Collection of MET cylindrical seals with modern impressions
-https://www.metmuseum.org/art/collection/search#!?showOnly=withImage%7CopenAccess&q=cylinder%20seal%20and%20modern%20impression&offset=0&perPage=80&sortOrder=asc&searchField=All&pageSize=0
-
-Audio recordings at Yellowstone park
-https://www.nps.gov/yell/learn/photosmultimedia/soundlibrary.htm
-
 Prelinger video archives
 https://archive.org/details/prelinger
 
 Morris Huberland's pictures of New York
 https://digitalcollections.nypl.org/collections/morris-huberland#/?tab=about
 
-Illustrations of these London Parks
-https://www.biodiversitylibrary.org/page/56636927#page/131/mode/1up
 
 ## Places to find test material
 
@@ -120,3 +127,18 @@ https://upload.wikimedia.org/wikipedia/commons/2/24/Brian_Shul_in_the_cockpit_of
 https://commons.wikimedia.org/wiki/Commons:European_Science_Photo_Competition_2015/Image_categories
 https://en.wikipedia.org/wiki/Wikipedia:Wikiproject:Estonian_Science_Photo_Competition
 
+
+- Good entry points:
+  - https://commons.wikimedia.org/wiki/Category:Plants
+  - https://commons.wikimedia.org/wiki/Commons:Featured_pictures/Plants
+  - https://commons.wikimedia.org/wiki/Category:Gardening
+  - https://commons.wikimedia.org/wiki/Category:Gardeners
+  - https://commons.wikimedia.org/wiki/File:Antonio,_el_invern%C3%A1culo_y_sus_plantas_(7375398612).jpg
+  - https://commons.wikimedia.org/wiki/File:Antonio,_el_ivern%C3%A1culo_y_sus_plantas_(7371797592).jpg
+  - https://commons.wikimedia.org/wiki/Category:Gardens
+  - https://commons.wikimedia.org/wiki/File:Gardener_Holding_Heirloom_Calypso_Beans_(aka_Yin_Yang).jpg
+  - https://commons.wikimedia.org/wiki/Category:Unidentified_pot_plants
+  - https://commons.wikimedia.org/wiki/File:Thumbnail-size_potted_plant-_Goyang_International_Flower_Festival_(4560157876).jpg
+  - https://commons.wikimedia.org/wiki/Category:Gardening_in_art
+  - https://commons.wikimedia.org/wiki/Category:Flowers_in_art
+  
