@@ -5,21 +5,27 @@ on:
     
 name: Zip up folders for distribution
 
+
+      
 jobs:
   build:
     name: Zip up folders for distribution
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        folder: 
+          - bjorn
+          - frances
+          - william
+          - interviews
+          - video
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
       
       - name: Zip files
         run: |
-          zip -r bjorn.zip bjorn/
-          zip -r video.zip video/
-          zip -r frances.zip frances/
-          zip -r william.zip william/
-          zip -r interviews.zip interviews/
+          zip -r ${{ matrix.folder }}.zip ${{ matrix.folder }}/
           
       - name: Create Release
         id: create_release
@@ -29,25 +35,16 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-          draft: true
+          draft: false
           prerelease: false
           
-      - name: upload Bjorn
+      - name: upload ${{ matrix.folder }}
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}  
-          asset_path: ./bjorn.zip
-          asset_name: bjorn.zip
+          asset_path: ./${{ matrix.folder }}.zip
+          asset_name: ${{ matrix.folder }}.zip
           asset_content_type: application/zip
-
-      - name: upload Frances
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}  
-          asset_path: ./frances.zip
-          asset_name: frances.zip
-          asset_content_type: application/zip
+               
