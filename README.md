@@ -1,32 +1,40 @@
-# folders
-test material for static site generators
+# Folders
 
-Diary - ? artificial folder from demo video? 
-  an image, a text file, a word document, a bookmark
+Test material for static site generators. To release new versions of the folders for download:
 
-Magazine - Interviews
-https://en.wikinews.org/wiki/Category:Interviews
+```
+git tag 1.1 && git push origin 1.1
+```
 
-Portfolio – William – Flowers on black
+The Github Action will automatically zip the folder contents and make them downloadable here:
+
+```
+https://github.com/davidmerfield/folders/releases/latest/download/$FOLDER.zip
+```
+
+## Folders for each template
+
+[Blog](https://blot.im/templates/blog) - [video](./video)  
+An image, a text file, a word document, a bookmark used in Blot's demo video
+
+[Magazine](https://blot.im/templates/blog) - [interviews](./interviews)
+[Wikinews's interviews](https://en.wikinews.org/wiki/Category:Interviews)
+
+[Portfolio](https://blot.im/templates/blog) – [bjorn](./bjorn)
 https://www.flickr.com/photos/alberta_archives/albums/72157643076560675
 
-Photo - Bjorn - Sweden
-https://www.flickr.com/photos/swedish_heritage_board/albums/72157650224763869/
+[Photo](https://blot.im/templates/photo) - [william](./william)
+  [Bjorn Allard](https://www.flickr.com/photos/swedish_heritage_board/albums/72157650224763869/)'s photos of Sweden
 
-Reference – Frances - Gardening in Color
-https://www.flickr.com/photos/library_of_congress/albums/72157629495236312
-May the beauty captured in these historical magic lantern slides inspire you with
-Just need to trim the borders
+[Reference](https://blot.im/templates/reference) - [frances](./frances) 
+  [Gardening in Color](https://www.flickr.com/photos/library_of_congress/albums/72157629495236312) by Frances
 
----
+## Tools
 
-Ferox for what template?
+- [Download flickr sets](https://www.npmjs.com/package/flickr-set-get)
 
-https://www.npmjs.com/package/flickr-set-get
 
-# Test material for templates
-
-This directory contains test material to develop templates with. 
+## Generating the blogs
 
 You will eventually be able to build these folders into blogs using 
 the script:
@@ -49,8 +57,6 @@ https://www.flickr.com/photos/library_of_congress/albums/72157612249760312
 Collection of MET cylindrical seals with modern impressions
 https://www.metmuseum.org/art/collection/search#!?showOnly=withImage%7CopenAccess&q=cylinder%20seal%20and%20modern%20impression&offset=0&perPage=80&sortOrder=asc&searchField=All&pageSize=0
 
-
-
 Audio recordings at Yellowstone park
 https://www.nps.gov/yell/learn/photosmultimedia/soundlibrary.htm
 
@@ -62,8 +68,6 @@ https://www.biodiversitylibrary.org/page/56636927#page/131/mode/1up
 
 HARD - Bird head drawings
 https://www.flickr.com/photos/smithsonian/albums/72157651885659630/page2
-
-
 
 Urban J Kinnet
 Geologist at Berkeley
