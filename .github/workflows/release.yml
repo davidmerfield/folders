@@ -15,11 +15,7 @@ jobs:
       
       - name: Zip files
         run: |
-          ls .
-          ls folders
-          ls folders/bjorn
-          zip -r bjorn.zip . -i folders/bjorn
-          ls .
+          zip -r bjorn.zip . -i bjorn
           
       - name: Create Release
         id: create_release
