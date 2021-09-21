@@ -14,7 +14,12 @@ jobs:
         uses: actions/checkout@v2
       
       - name: Zip files
-        run: zip -r bjorn.zip . -i folders/bjorn
+        run: |
+          ls .
+          ls folders
+          ls folders/bjorn
+          zip -r bjorn.zip . -i folders/bjorn
+          ls .
           
       - name: Create Release
         id: create_release
