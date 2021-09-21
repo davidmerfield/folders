@@ -6,11 +6,13 @@ Test material for static site generators. To release new versions of the folders
 git tag 1.1 && git push origin 1.1
 ```
 
-The Github Action will automatically zip the folder contents and make them downloadable here:
+The [Github Action](./github/workflows/release) will automatically zip the folder contents and make them downloadable here:
 
 ```
 https://github.com/davidmerfield/folders/releases/latest/download/$FOLDER.zip
 ```
+
+Make sure you update the [Github Action](./github/workflows/release) if you add or remove a folder.
 
 ## Folders for each template
 
@@ -24,19 +26,18 @@ An image, a text file, a word document, a bookmark used in Blot's demo video
 https://www.flickr.com/photos/alberta_archives/albums/72157643076560675
 
 [Photo](https://blot.im/templates/photo) - [william](./william)
-  [Bjorn Allard](https://www.flickr.com/photos/swedish_heritage_board/albums/72157650224763869/)'s photos of Sweden
+[Bjorn Allard](https://www.flickr.com/photos/swedish_heritage_board/albums/72157650224763869/)'s photos of Sweden
 
-[Reference](https://blot.im/templates/reference) - [frances](./frances) 
-  [Gardening in Color](https://www.flickr.com/photos/library_of_congress/albums/72157629495236312) by Frances
+[Reference](https://blot.im/templates/reference) - [frances](./frances)
+[Gardening in Color](https://www.flickr.com/photos/library_of_congress/albums/72157629495236312) by Frances
 
 ## Tools
 
 - [Download flickr sets](https://www.npmjs.com/package/flickr-set-get)
 
-
 ## Generating the blogs
 
-You will eventually be able to build these folders into blogs using 
+You will eventually be able to build these folders into blogs using
 the script:
 
 ```
@@ -48,43 +49,29 @@ This will be useful food for thought when we allow people
 to edit their blog's settings from the folder, e.g.
 a .blot directory containing config...
 
+## Future test material
 
-## Future test material 
+[Photochrom Travel Views](https://www.flickr.com/photos/library_of_congress/albums/72157612249760312)
 
-Photochrom Travel Views
-https://www.flickr.com/photos/library_of_congress/albums/72157612249760312
+[Collection of MET cylindrical seals with modern impressions](https://www.metmuseum.org/art/collection/search#!?showOnly=withImage%7CopenAccess&q=cylinder%20seal%20and%20modern%20impression&offset=0&perPage=80&sortOrder=asc&searchField=All&pageSize=0)
 
-Collection of MET cylindrical seals with modern impressions
-https://www.metmuseum.org/art/collection/search#!?showOnly=withImage%7CopenAccess&q=cylinder%20seal%20and%20modern%20impression&offset=0&perPage=80&sortOrder=asc&searchField=All&pageSize=0
+[Audio recordings at Yellowstone park](https://www.nps.gov/yell/learn/photosmultimedia/soundlibrary.htm)
 
-Audio recordings at Yellowstone park
-https://www.nps.gov/yell/learn/photosmultimedia/soundlibrary.htm
+[James Jowers black and white street photography](https://www.flickr.com/photos/george_eastman_house/)albums/72157608512488080
 
-James Jowers black and white street photography
-https://www.flickr.com/photos/george_eastman_house/albums/72157608512488080
+[HARD - Illustrations of these London Parks](https://www.biodiversitylibrary.org/page/56636927#page/131/mode/1up)
 
-HARD - Illustrations of these London Parks
-https://www.biodiversitylibrary.org/page/56636927#page/131/mode/1up
+[HARD - Bird head drawings](https://www.flickr.com/photos/smithsonian/albums/72157651885659630/page2)
 
-HARD - Bird head drawings
-https://www.flickr.com/photos/smithsonian/albums/72157651885659630/page2
+[Urban J Kinnet Geologist at Berkeley](https://www.flickr.com/photos/105662205@N04/albums/72157670885525146/page1)
 
-Urban J Kinnet
-Geologist at Berkeley
-https://www.flickr.com/photos/105662205@N04/albums/72157670885525146/page1
+[Vancouver neon in black and white](https://www.flickr.com/photos/99915476@N04/albums/72157636305761336)
 
-Vancouver neon in black and white
-https://www.flickr.com/photos/99915476@N04/albums/72157636305761336
+[Nasa Mission Patches](https://www.flickr.com/search/?text=nasa%20patches&license=7%2C9%2C10)
 
-Nasa Mission Patches
-https://www.flickr.com/search/?text=nasa%20patches&license=7%2C9%2C10
+[Prelinger video archives](https://archive.org/details/prelinger)
 
-Prelinger video archives
-https://archive.org/details/prelinger
-
-Morris Huberland's pictures of New York
-https://digitalcollections.nypl.org/collections/morris-huberland#/?tab=about
-
+[Morris Huberland's pictures of New York](https://digitalcollections.nypl.org/collections/)morris-huberland#/?tab=about
 
 ## Places to find test material
 
@@ -97,11 +84,11 @@ https://digitalcollections.nypl.org/collections#/?scroll=195
 Find one of these biological albums
 https://www.flickr.com/photos/biodivlibrary/albums
 
-: ephemera: https://ticketsplz.tumblr.com/ 
-		  ben@shelfheroes.com 
-		  https://twitter.com/tkts_plz
-		  https://www.instagram.com/ticketsplz/
-curator of public domain:		  https://nos.twnsnd.co/page/8
+: ephemera: https://ticketsplz.tumblr.com/
+ben@shelfheroes.com
+https://twitter.com/tkts_plz
+https://www.instagram.com/ticketsplz/
+curator of public domain: https://nos.twnsnd.co/page/8
 
 https://en.wikinews.org/wiki/Fernando_Torres_signs_contract_extension_with_Atl%C3%A9tico_Madrid?dpl_id=2793772
 
@@ -110,7 +97,6 @@ https://projects.propublica.org/graphics/d4d-hospital-lookup
 https://www.propublica.org/archive/P60/
 
 https://www.good.is/features?page=5
-
 
 https://commons.wikimedia.org/wiki/Category:Botanical_illustrations
 https://commons.wikimedia.org/wiki/Category:Familiar_wild_flowers_figured_and_described
@@ -131,7 +117,6 @@ https://upload.wikimedia.org/wikipedia/commons/2/24/Brian_Shul_in_the_cockpit_of
 https://commons.wikimedia.org/wiki/Commons:European_Science_Photo_Competition_2015/Image_categories
 https://en.wikipedia.org/wiki/Wikipedia:Wikiproject:Estonian_Science_Photo_Competition
 
-
 - Good entry points:
   - https://commons.wikimedia.org/wiki/Category:Plants
   - https://commons.wikimedia.org/wiki/Commons:Featured_pictures/Plants
@@ -145,4 +130,3 @@ https://en.wikipedia.org/wiki/Wikipedia:Wikiproject:Estonian_Science_Photo_Compe
   - https://commons.wikimedia.org/wiki/File:Thumbnail-size_potted_plant-_Goyang_International_Flower_Festival_(4560157876).jpg
   - https://commons.wikimedia.org/wiki/Category:Gardening_in_art
   - https://commons.wikimedia.org/wiki/Category:Flowers_in_art
-  
