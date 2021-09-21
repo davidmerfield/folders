@@ -15,11 +15,11 @@ jobs:
       
       - name: Zip files
         run: |
-          zip -r bjorn.zip . -i bjorn
-          zip -r video.zip . -i video
-          zip -r frances.zip . -i frances
-          zip -r william.zip . -i william
-          zip -r interviews.zip . -i interviews
+          zip -r bjorn.zip bjorn/
+          zip -r video.zip video/
+          zip -r frances.zip frances/
+          zip -r william.zip william/
+          zip -r interviews.zip interviews/
           
       - name: Create Release
         id: create_release
